@@ -52,7 +52,7 @@ namespace AddressBook.Objects
     {
       return _instances;
     }
-    public static void ClearAll()
+    public static void DeleteAll()
     {
       _instances.Clear();
     }
