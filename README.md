@@ -10,11 +10,16 @@ This program gives the user the opportunity to create and address book w/ contac
 ## Specifications
 * User can create a contact in address book
   * Input: name, phone & address (user input)
-  * Output: Name: John Dowd; Address: 17885 Pine St, Portland OR 9722; Phone: (503) 555-5555
+  * Output: Name: John Dowd; Address: 17885 Pine St,  Phone: (503) 555-5555
 
 * User can delete contacts  in address book via click button
   * Input: Delete button
-  * Output: Deletes all contacts   
+  * Output: Deletes all contacts
+
+* User can return to home page via adding and deleting contacts
+  * Input: Home button
+  * Output: Returns home
+
 
 ### Link
 https://github.com/irishdowd10/AddressBook.git
