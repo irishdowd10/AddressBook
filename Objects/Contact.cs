@@ -14,9 +14,8 @@ namespace AddressBook.Objects
     {
       _id       = _instances.Count;
       _name     = name;
-      _phone   = phone;
-      _address = address;
-
+      _phone    = phone;
+      _address  = address;
       _instances.Add(this);
     }
 
@@ -24,10 +23,12 @@ namespace AddressBook.Objects
     {
       return _id;
     }
+
     public string GetName()
     {
       return _name;
     }
+
     public void SetName(string newName)
     {
       _name = newName;
