@@ -12,7 +12,7 @@ namespace AddressBook
         return View["index.cshtml", Contact.GetAll()];
       };
       Get["/contacts/new"] = _ => {
-        return View["Contact_form.cshtml"];
+        return View["contact_form.cshtml"];
       };
       Post["/"] = _ => {
         Contact newContact = new Contact(Request.Form["new-name"],
