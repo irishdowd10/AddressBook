@@ -12,20 +12,21 @@ This program gives the user the opportunity to create and address book w/ contac
   * Input: name, phone & address (user input)
   * Output: Name: John Dowd; Address: 17885 Pine St, Portland OR 9722; Phone: (503) 555-5555
 
-* User can enter an clear contacts  in address book
-  * Input: Clear button
-  * Output: Clears all contacts   
-
-
-
+* User can delete contacts  in address book via click button
+  * Input: Delete button
+  * Output: Deletes all contacts   
 
 ### Link
 https://github.com/irishdowd10/AddressBook.git
 
 ## Setup
 
-* Open Terminal on Desktop
-* Clone the project in a text editor of your choice
+* see link above
+* Clone the repository then locate folder through command line.
+* >dnu restore to load the file.
+* >dnx kestrel to start the server.
+* >localhost:5004 to view the address book.
+
 
 ## Known Bugs
 None that I know of
