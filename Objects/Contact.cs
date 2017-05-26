@@ -6,11 +6,11 @@ namespace AddressBook.Objects
   {
     private int      _id;
     private string   _name;
-    private int      _phone;
+    private string   _phone;
     private string   _address;
     private static List<Contact> _instances = new List<Contact>{};
 
-    public Book(string name, string phone, string address)
+    public Contact (string name, string phone, string address)
     {
       _id       = _instances.Count;
       _name     = name;
