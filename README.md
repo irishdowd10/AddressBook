@@ -37,7 +37,7 @@ _John Dowd - john.dowd@inspectall.com_
 
 ## Technologies Used
 
-_HTML Bootstrap, Nancy, Razor,C#
+_HTML Bootstrap, Nancy, Razor,C#_
 
 ### License
 
