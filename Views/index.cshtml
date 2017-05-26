@@ -1,0 +1,15 @@
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+
+<div class="row">
+  <div class="col-md-2">
+    <div class="btn-group-vertical">
+      <form action="/contacts/new" method="get">
+        <button type="submit" class="btn btn-default">Add a Contact</button>
+      </form>
+      <form action="/contacts/clear" method="post">
+        <button type="submit" class="btn btn-default">Clear All Contacts</button>
+      </form>
+    </div>
+  </div>
